@@ -1,0 +1,302 @@
+/* add @font-face */
+@font-face {
+  font-family: droidserif;
+  src: url(./font/DroidSerif-Regular.ttf);
+}
+@font-face {
+  font-family: droidserif;
+  src: url(./font/DroidSerif-Italic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: droidserif;
+  src: url(./font/DroidSerif-Bold.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: droidserif;
+  src: url(./font/DroidSerif-BoldItalic.ttf);
+  font-style: italic;
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  font-family: lato;
+  color: #3d3d3d;
+}
+
+.logo {
+  margin: 0;
+  padding-left: 25px;
+}
+
+nav {
+  /* 100vw = 100% of viewport width*/
+  width: 100vw;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+#myLinks {
+  display: flex;
+  a {
+    display: flex;
+    padding-right: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+
+    &:visited {
+      color: #3d3d3d;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .logo {
+    padding-left: 77px;
+    padding-top: 25px;
+  }
+  #myLinks {
+    padding-right: 77px;
+    padding-top: 25px;
+  }
+
+  .intro-title {
+    font-size: 57px;
+  }
+  .intro-subtitle {
+    font-size: 2.5rem;
+  }
+}
+
+.homepage {
+  /* Main Body */
+  font-size: 13px;
+
+  @media (max-width: 320px) {
+    .homepage {
+      font-size: 12px;
+    }
+  }
+  .intro-wrapper {
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0;
+    font-family: droidserif;
+    font-size: 1.3rem;
+  }
+
+  .intro-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .note-1 {
+    font-family: droidserif;
+    /*font-size: 12px;*/
+    font-weight: bold;
+    padding-left: 25px;
+  }
+
+  .note-2 {
+    font-family: droidserif;
+    font-size: 12px;
+    padding: 13px 0;
+    padding-left: 25px;
+    background-color: #f7f7f7;
+
+    p {
+      margin: 0;
+      padding: 13px 0;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .intro-wrapper {
+      padding-bottom: 145px;
+      font-size: 2.5rem;
+    }
+    .note-1 {
+      font-size: 16px;
+      padding-left: 77px;
+    }
+    .note-2 {
+      font-size: 16px;
+      background-color: white;
+      margin-bottom: 35px;
+      padding-left: 77px;
+      display: flex;
+      align-items: baseline;
+
+      .note-2-1 {
+        padding-right: 5px;
+      }
+    }
+  }
+  /* Projects */
+  /*@media (max-width: 500px) {
+    .project-image {
+      width: 100%;
+    }
+  }*/
+
+  .project-image img {
+    width: 100vw;
+  }
+  .project-text {
+    padding: 15px 25px 25px;
+
+    .project-title {
+      font-family: droidserif;
+      /*font-size: 15px;*/
+      font-weight: bold;
+    }
+    .project-description {
+      font-family: lato;
+      /*font-size: 12px;*/
+      padding: 15px 0px 25px;
+    }
+  }
+  .year {
+    font-family: droidserif;
+    /*font-size: 12px;*/
+    font-weight: bold;
+  }
+  @media (max-width: 500px) {
+    font-size: 12px;
+    .intro-wrapper {
+      font-size: 1rem;
+    }
+  }
+  @media (min-width: 600px) {
+    /* SOLVED! - use vw unit
+    How to set div. size? - there's white space in ipad pro version
+
+    .project-image {
+      width: 55.62%;
+    }
+    
+    */
+    .project-image img {
+      width: 55.62vw;
+      padding-left: 77px;
+    }
+    .project {
+      display: flex;
+      margin-bottom: 90px;
+    }
+    .project-text {
+      padding-left: 40px;
+    }
+    .project-title {
+      font-size: 20px;
+    }
+    .project-description {
+      max-width: 409px;
+      font-size: 17px;
+      line-height: 1.5;
+    }
+  }
+  .footer {
+    text-align: center;
+    font-family: lato;
+    font-size: 15px;
+    background-color: #f7f7f7;
+    padding: 25px;
+
+    .getintouch {
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .email {
+      font-family: droidserif;
+      font-size: 25px;
+      font-weight: bold;
+      padding: 27px 0;
+
+      a {
+        text-decoration: none;
+        color: #3d3d3d;
+      }
+    }
+    .credit-professional {
+      font-size: 10px;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+
+      .footer-left {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px 0;
+        padding-left: 77px;
+
+        .getintouch {
+          padding-bottom: 15px;
+        }
+
+        .email {
+          padding: 0;
+          padding-bottom: 40px;
+        }
+      }
+
+      .footer-right {
+        display: flex;
+        align-items: flex-end;
+        padding: 30px 0;
+        padding-right: 77px;
+
+        .credit-professional {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 600px) and (max-width: 800px) {
+    .intro-title,
+    .intro-subtitle {
+      font-size: 0px;
+      font-size: 2rem;
+    }
+    .note-1 {
+      padding-left: 6vw;
+    }
+    .note-2 {
+      flex-wrap: wrap;
+      margin: 0;
+      padding-left: 6vw;
+    }
+
+    .project {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+      /*padding-left: 70px;*/
+      padding-left: 6vw;
+    }
+
+    .project-image img {
+      width: 600px;
+      padding: 0;
+    }
+
+    .project-text {
+      padding: 15px 0 25px;
+    }
+  }
+}

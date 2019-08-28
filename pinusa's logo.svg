@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="47px" viewBox="0 0 48 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>pinusa's logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mobile-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-22.000000, -22.000000)">
+            <g id="Group-4" transform="translate(25.000000, 25.000000)">
+                <g id="pinusa's-logo">
+                    <circle id="Oval" fill="#F5C923" cx="25" cy="24" r="20"></circle>
+                    <circle id="Oval" stroke="#F5A623" stroke-width="5" cx="20" cy="20" r="20"></circle>
+                    <text id="p" font-family="DroidSerif-Bold, Droid Serif" font-size="20" font-weight="bold" letter-spacing="-0.266666661" fill="#000000">
+                        <tspan x="16.183138" y="25">p</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

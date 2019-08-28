@@ -1,0 +1,346 @@
+/* add @font-face */
+@font-face {
+  font-family: droidserif;
+  src: url(./font/DroidSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: droidserif;
+  src: url(./font/DroidSerif-Italic.ttf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: droidserif;
+  src: url(./font/DroidSerif-Bold.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: droidserif;
+  src: url(./font/DroidSerif-BoldItalic.ttf);
+  font-style: italic;
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  font-family: lato;
+  color: #3d3d3d;
+}
+
+.logo {
+  margin: 0;
+  padding-left: 25px;
+}
+
+nav {
+  /* 100vw = 100% of viewport width*/
+  width: 100vw;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 25px;
+}
+
+#myLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#myLinks a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+#myLinks a:visited {
+  color: #3d3d3d;
+}
+
+@media screen and (min-width: 600px) {
+  .logo {
+    padding-left: 77px;
+    padding-top: 25px;
+  }
+  #myLinks {
+    padding-right: 77px;
+    padding-top: 25px;
+  }
+  .intro-title {
+    font-size: 57px;
+  }
+  .intro-subtitle {
+    font-size: 2.5rem;
+  }
+}
+
+.homepage {
+  /* Main Body */
+  font-size: 13px;
+  /* Projects */
+  /*@media (max-width: 500px) {
+    .project-image {
+      width: 100%;
+    }
+  }*/
+}
+
+@media (max-width: 320px) {
+  .homepage .homepage {
+    font-size: 12px;
+  }
+}
+
+.homepage .intro-wrapper {
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px 0;
+  font-family: droidserif;
+  font-size: 1.3rem;
+}
+
+.homepage .intro-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.homepage .note-1 {
+  font-family: droidserif;
+  /*font-size: 12px;*/
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+.homepage .note-2 {
+  font-family: droidserif;
+  font-size: 12px;
+  padding: 13px 0;
+  padding-left: 25px;
+  background-color: #f7f7f7;
+}
+
+.homepage .note-2 p {
+  margin: 0;
+  padding: 13px 0;
+}
+
+@media screen and (min-width: 600px) {
+  .homepage .intro-wrapper {
+    padding-bottom: 145px;
+    font-size: 2.5rem;
+  }
+  .homepage .note-1 {
+    font-size: 16px;
+    padding-left: 77px;
+  }
+  .homepage .note-2 {
+    font-size: 16px;
+    background-color: white;
+    margin-bottom: 35px;
+    padding-left: 77px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .homepage .note-2 .note-2-1 {
+    padding-right: 5px;
+  }
+}
+
+.homepage .project-image img {
+  width: 100vw;
+}
+
+.homepage .project-text {
+  padding: 15px 25px 25px;
+}
+
+.homepage .project-text .project-title {
+  font-family: droidserif;
+  /*font-size: 15px;*/
+  font-weight: bold;
+}
+
+.homepage .project-text .project-description {
+  font-family: lato;
+  /*font-size: 12px;*/
+  padding: 15px 0px 25px;
+}
+
+.homepage .year {
+  font-family: droidserif;
+  /*font-size: 12px;*/
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .homepage {
+    font-size: 12px;
+  }
+  .homepage .intro-wrapper {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .homepage {
+    /* SOLVED! - use vw unit
+    How to set div. size? - there's white space in ipad pro version
+
+    .project-image {
+      width: 55.62%;
+    }
+    
+    */
+  }
+  .homepage .project-image img {
+    width: 55.62vw;
+    padding-left: 77px;
+  }
+  .homepage .project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 90px;
+  }
+  .homepage .project-text {
+    padding-left: 40px;
+  }
+  .homepage .project-title {
+    font-size: 20px;
+  }
+  .homepage .project-description {
+    max-width: 409px;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+}
+
+.homepage .footer {
+  text-align: center;
+  font-family: lato;
+  font-size: 15px;
+  background-color: #f7f7f7;
+  padding: 25px;
+}
+
+.homepage .footer .getintouch {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.homepage .footer .email {
+  font-family: droidserif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 27px 0;
+}
+
+.homepage .footer .email a {
+  text-decoration: none;
+  color: #3d3d3d;
+}
+
+.homepage .footer .credit-professional {
+  font-size: 10px;
+}
+
+@media (min-width: 600px) {
+  .homepage .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0;
+  }
+  .homepage .footer .footer-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 30px 0;
+    padding-left: 77px;
+  }
+  .homepage .footer .footer-left .getintouch {
+    padding-bottom: 15px;
+  }
+  .homepage .footer .footer-left .email {
+    padding: 0;
+    padding-bottom: 40px;
+  }
+  .homepage .footer .footer-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding: 30px 0;
+    padding-right: 77px;
+  }
+  .homepage .footer .footer-right .credit-professional {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .homepage .intro-title,
+  .homepage .intro-subtitle {
+    font-size: 0px;
+    font-size: 2rem;
+  }
+  .homepage .note-1 {
+    padding-left: 6vw;
+  }
+  .homepage .note-2 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0;
+    padding-left: 6vw;
+  }
+  .homepage .project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0;
+    /*padding-left: 70px;*/
+    padding-left: 6vw;
+  }
+  .homepage .project-image img {
+    width: 600px;
+    padding: 0;
+  }
+  .homepage .project-text {
+    padding: 15px 0 25px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,215 @@
+/* add @font-face */
+@font-face {
+  font-family: droidserif;
+  src: url(./font/DroidSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: droidserif;
+  src: url(./font/DroidSerif-Italic.ttf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: droidserif;
+  src: url(./font/DroidSerif-Bold.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: droidserif;
+  src: url(./font/DroidSerif-BoldItalic.ttf);
+  font-style: italic;
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  font-family: lato;
+  color: white;
+  background-color: black;
+}
+
+.logo {
+  margin: 0;
+  padding-left: 25px;
+}
+
+nav {
+  /* 100vw = 100% of viewport width*/
+  width: 100vw;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 25px;
+}
+
+#myLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#myLinks a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: white;
+}
+
+#myLinks a:visited {
+  color: white;
+}
+
+@media screen and (min-width: 600px) {
+  .logo {
+    padding-left: 77px;
+    padding-top: 25px;
+  }
+  #myLinks {
+    padding-right: 77px;
+    padding-top: 25px;
+  }
+  .intro-title {
+    font-size: 57px;
+  }
+  .intro-subtitle {
+    font-size: 2.5rem;
+  }
+}
+
+.about-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 50px;
+  font-family: Garamond;
+  font-size: 15px;
+  line-height: 1.2;
+  top: 20%;
+  position: absolute;
+  bottom: 0;
+}
+
+.about-content .say-hi .link-profile {
+  color: white;
+}
+
+@media (max-width: 320px) {
+  .about-content {
+    position: static;
+  }
+}
+
+@media (min-width: 600px) {
+  .about-content {
+    max-width: 1050px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 13.13vh 13.54vw;
+    font-size: 22px;
+    position: absolute;
+  }
+}
+
+.footer {
+  text-align: center;
+  font-family: lato;
+  font-size: 15px;
+  /*background-color: #f7f7f7;*/
+  color: white;
+  padding: 25px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /*.getintouch {
+    font-weight: bold;
+    letter-spacing: 2px;
+  }*/
+}
+
+.footer .email {
+  font-family: droidserif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 27px 0;
+}
+
+.footer .email a {
+  text-decoration: none;
+  color: #3d3d3d;
+}
+
+.footer .credit-professional {
+  font-size: 10px;
+}
+
+@media (min-width: 600px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0;
+    font-size: 12px;
+  }
+  .footer .footer-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 30px 0;
+    padding-left: 77px;
+    /*.getintouch {
+        padding-bottom: 15px;
+      }
+*/
+  }
+  .footer .footer-left .email {
+    padding: 0;
+    padding-bottom: 40px;
+  }
+  .footer .footer-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding: 30px 0;
+    padding-right: 77px;
+  }
+  .footer .footer-right .credit-professional {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=about.css.map */
