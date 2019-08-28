@@ -349,9 +349,7 @@ nav {
   .homepage .project-description {
     max-width: 600px;
   }
-  .homepage .footer-left {
-    padding-left: 6vw;
-  }
+  .homepage .footer-left,
   .homepage .footer-right {
     padding-left: 6vw;
   }
