@@ -73,7 +73,7 @@ nav {
   color: #3d3d3d;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .homepage .logo img {
     width: 45px;
   }
