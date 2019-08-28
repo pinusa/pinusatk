@@ -169,6 +169,10 @@ nav {
     .intro-wrapper {
       font-size: 1rem;
     }
+
+    .logo {
+      width: 45px;
+    }
   }
   @media (min-width: 600px) {
     /* SOLVED! - use vw unit
@@ -294,6 +298,9 @@ nav {
 
     .project-text {
       padding: 15px 0 25px;
+    }
+    .project-description {
+      max-width: 600px;
     }
   }
 }
