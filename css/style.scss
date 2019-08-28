@@ -247,7 +247,7 @@ nav {
         flex-direction: column;
         align-items: flex-start;
         padding: 30px 0;
-        padding-left: 77px;
+        padding-left: 6vw;
 
         .getintouch {
           padding-bottom: 15px;
@@ -263,7 +263,7 @@ nav {
         display: flex;
         align-items: flex-end;
         padding: 30px 0;
-        padding-right: 77px;
+        padding-right: 6vw;
 
         .credit-professional {
           font-size: 15px;
@@ -305,11 +305,6 @@ nav {
     }
     .project-description {
       max-width: 600px;
-    }
-
-    .footer-left,
-    .footer-right {
-      padding-left: 6vw;
     }
   }
 }

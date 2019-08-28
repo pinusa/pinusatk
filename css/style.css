@@ -290,7 +290,7 @@ nav {
         -ms-flex-align: start;
             align-items: flex-start;
     padding: 30px 0;
-    padding-left: 77px;
+    padding-left: 6vw;
   }
   .homepage .footer .footer-left .getintouch {
     padding-bottom: 15px;
@@ -307,7 +307,7 @@ nav {
         -ms-flex-align: end;
             align-items: flex-end;
     padding: 30px 0;
-    padding-right: 77px;
+    padding-right: 6vw;
   }
   .homepage .footer .footer-right .credit-professional {
     font-size: 15px;
@@ -348,10 +348,6 @@ nav {
   }
   .homepage .project-description {
     max-width: 600px;
-  }
-  .homepage .footer-left,
-  .homepage .footer-right {
-    padding-left: 6vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
