@@ -23,8 +23,8 @@
 body {
   margin: 0;
   font-family: lato;
-  color: white;
-  background-color: black;
+  color: #3d3d3d;
+  background-color: white;
 }
 
 .logo {
@@ -35,7 +35,7 @@ body {
 nav {
   /* 100vw = 100% of viewport width*/
   width: 100vw;
-  background-color: #000000;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,14 +51,18 @@ nav {
     font-weight: 700;
     letter-spacing: 1px;
     text-decoration: none;
-    color: white;
+    color: #3d3d3d;
 
     &:visited {
-      color: white;
+      color: #3d3d3d;
     }
   }
 }
-
+@media (max-width: 500px) {
+  .homepage .logo img {
+    width: 45px;
+  }
+}
 @media screen and (min-width: 600px) {
   .logo {
     padding-left: 77px;
@@ -90,7 +94,7 @@ nav {
 
   .say-hi {
     .link-profile {
-      color: white;
+      color: #3d3d3d;
     }
   }
 }
@@ -114,7 +118,7 @@ nav {
   font-family: lato;
   font-size: 15px;
   /*background-color: #f7f7f7;*/
-  color: white;
+  color: #3d3d3d;
   padding: 25px;
   position: fixed;
   width: 100%;
