@@ -35,6 +35,12 @@ body {
   padding-left: 25px;
 }
 
+@media (max-width: 600px) {
+  .logo {
+    width: 45px;
+  }
+}
+
 nav {
   /* 100vw = 100% of viewport width*/
   width: 100vw;
@@ -71,12 +77,6 @@ nav {
 
 #myLinks a:visited {
   color: #3d3d3d;
-}
-
-@media (max-width: 600px) {
-  .homepage .logo img {
-    width: 45px;
-  }
 }
 
 @media screen and (min-width: 600px) {
