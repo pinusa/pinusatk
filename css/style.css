@@ -68,6 +68,10 @@ nav {
   color: #3d3d3d;
 }
 
+#myLinks a:visited {
+  color: #3d3d3d;
+}
+
 @media screen and (min-width: 600px) {
   .logo {
     padding-left: 77px;
@@ -344,6 +348,12 @@ nav {
   }
   .homepage .project-description {
     max-width: 600px;
+  }
+  .homepage .footer-left {
+    padding-left: 6vw;
+  }
+  .homepage .footer-right {
+    padding-left: 6vw;
   }
 }
 /*# sourceMappingURL=style.css.map */

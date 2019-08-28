@@ -52,6 +52,10 @@ nav {
     text-decoration: none;
     color: #3d3d3d;
   }
+
+  a:visited {
+    color: #3d3d3d;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -301,6 +305,14 @@ nav {
     }
     .project-description {
       max-width: 600px;
+    }
+
+    .footer-left {
+      padding-left: 6vw;
+    }
+
+    .footer-right {
+      padding-left: 6vw;
     }
   }
 }
