@@ -43,7 +43,7 @@ nav {
 
 #myLinks {
   display: flex;
-  a {
+  a:link {
     display: flex;
     padding-right: 25px;
     font-size: 14px;
@@ -167,10 +167,10 @@ nav {
   @media (max-width: 500px) {
     font-size: 12px;
     .intro-wrapper {
-      font-size: 1rem;
+      font-size: 1.3rem;
     }
 
-    .logo {
+    .logo img {
       width: 45px;
     }
   }
@@ -198,7 +198,7 @@ nav {
       font-size: 20px;
     }
     .project-description {
-      max-width: 409px;
+      max-width: 600px;
       font-size: 17px;
       line-height: 1.5;
     }
