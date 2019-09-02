@@ -29,13 +29,19 @@ body {
   color: #3d3d3d;
 }
 
+/* Navigation */
 .logo {
   margin: 0;
-  padding-left: 25px;
+  padding-left: 5.347vw;
+}
+
+@media (max-width: 500px) {
+  .logo {
+    width: 45px;
+  }
 }
 
 nav {
-  /* 100vw = 100% of viewport width*/
   width: 100vw;
   background-color: #ffffff;
   display: -webkit-box;
@@ -47,16 +53,17 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 25px;
+  padding-top: 50px;
 }
 
 #myLinks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-right: 5.347vw;
 }
 
-#myLinks a:link {
+#myLinks a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,6 +79,42 @@ nav {
   color: #3d3d3d;
 }
 
+#myLinks a:last-child {
+  padding-right: 0;
+}
+
+/*
+.logo {
+  margin: 0;
+  padding-left: 25px;
+}
+
+nav {
+  width: 100vw;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+#myLinks {
+  display: flex;
+  a:link {
+    display: flex;
+    padding-right: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #3d3d3d;
+  }
+
+  a:visited {
+    color: #3d3d3d;
+  }
+}
+*/
 .intro-title {
   font-size: 57px;
 }

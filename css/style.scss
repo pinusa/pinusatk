@@ -25,14 +25,53 @@ body {
   font-family: lato;
   color: #3d3d3d;
 }
+/* Navigation */
+.logo {
+  margin: 0;
+  padding-left: 5.347vw;
 
+  @media (max-width: 500px) {
+    width: 45px;
+  }
+}
+
+nav {
+  width: 100vw;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+#myLinks {
+  display: flex;
+  padding-right: 5.347vw;
+
+  a {
+    display: flex;
+    padding-right: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #3d3d3d;
+
+    &:visited {
+      color: #3d3d3d;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+/*
 .logo {
   margin: 0;
   padding-left: 25px;
 }
 
 nav {
-  /* 100vw = 100% of viewport width*/
   width: 100vw;
   background-color: #ffffff;
   display: flex;
@@ -57,6 +96,7 @@ nav {
     color: #3d3d3d;
   }
 }
+*/
 
 .intro-title {
   font-size: 57px;
