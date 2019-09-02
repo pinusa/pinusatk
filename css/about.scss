@@ -23,8 +23,8 @@
 body {
   margin: 0;
   font-family: lato;
-  color: #3d3d3d;
-  background-color: white;
+  background-color: black;
+  color: white;
 }
 /* Navigation */
 .logo {
@@ -38,7 +38,7 @@ body {
 
 nav {
   width: 100vw;
-  background-color: #ffffff;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -55,10 +55,12 @@ nav {
     font-weight: 700;
     letter-spacing: 1px;
     text-decoration: none;
-    color: #3d3d3d;
+    /*color: #3d3d3d;*/
+    color: white;
 
     &:visited {
-      color: #3d3d3d;
+      /*color: #3d3d3d;*/
+      color: white;
     }
 
     &:last-child {
@@ -66,64 +68,16 @@ nav {
     }
   }
 }
-/*.logo {
-  margin: 0;
-  padding-left: 25px;
-
-  @media (max-width: 600px) {
-    width: 45px;
-  }
-}
-
-nav {
-  
-  width: 100vw;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 25px;
-}
-
-#myLinks {
-  display: flex;
-  a {
-    display: flex;
-    padding-right: 25px;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-decoration: none;
-    color: #3d3d3d;
-
-    &:visited {
-      color: #3d3d3d;
-    }
-  }
-}
-@media screen and (min-width: 600px) {
-  .logo {
-    padding-left: 77px;
-    padding-top: 25px;
-  }
-  #myLinks {
-    padding-right: 77px;
-    padding-top: 25px;
-  }
-
-  .intro-title {
-    font-size: 57px;
-  }
-  .intro-subtitle {
-    font-size: 2.5rem;
-  }
-}
-*/
 
 .about-content {
+  /*color: white;*/
+  text-align: center;
+  background-color: black;
+  color: white;
+
   display: flex;
   flex-direction: column;
-  padding: 70px 50px;
+  /*padding: 70px 50px;*/
   font-family: Garamond;
   font-size: 15px;
   line-height: 1.2;
@@ -133,7 +87,8 @@ nav {
 
   .say-hi {
     .link-profile {
-      color: #3d3d3d;
+      /*color: #3d3d3d;*/
+      color: white;
     }
   }
 }
@@ -147,8 +102,9 @@ nav {
   .about-content {
     max-width: 1050px;
     display: flex;
-    padding: /*189px*/ 13.13vh 13.54vw;
-    font-size: 22px;
+    padding: /*189px*/ 12vh 25vw;
+    font-size: 1.5rem;
+    line-height: 1.5;
     position: absolute;
   }
 }
@@ -157,7 +113,8 @@ nav {
   font-family: lato;
   font-size: 15px;
   /*background-color: #f7f7f7;*/
-  color: #3d3d3d;
+  /*color: #3d3d3d;*/
+  color: white;
   padding: 25px;
   position: fixed;
   width: 100%;
@@ -177,7 +134,8 @@ nav {
 
     a {
       text-decoration: none;
-      color: #3d3d3d;
+      /*color: #3d3d3d;*/
+      color: white;
     }
   }
   .credit-professional {

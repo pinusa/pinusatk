@@ -26,8 +26,8 @@
 body {
   margin: 0;
   font-family: lato;
-  color: #3d3d3d;
-  background-color: white;
+  background-color: black;
+  color: white;
 }
 
 /* Navigation */
@@ -44,7 +44,7 @@ body {
 
 nav {
   width: 100vw;
-  background-color: #ffffff;
+  background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,71 +73,24 @@ nav {
   font-weight: 700;
   letter-spacing: 1px;
   text-decoration: none;
-  color: #3d3d3d;
+  /*color: #3d3d3d;*/
+  color: white;
 }
 
 #myLinks a:visited {
-  color: #3d3d3d;
+  /*color: #3d3d3d;*/
+  color: white;
 }
 
 #myLinks a:last-child {
   padding-right: 0;
 }
 
-/*.logo {
-  margin: 0;
-  padding-left: 25px;
-
-  @media (max-width: 600px) {
-    width: 45px;
-  }
-}
-
-nav {
-  
-  width: 100vw;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 25px;
-}
-
-#myLinks {
-  display: flex;
-  a {
-    display: flex;
-    padding-right: 25px;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-decoration: none;
-    color: #3d3d3d;
-
-    &:visited {
-      color: #3d3d3d;
-    }
-  }
-}
-@media screen and (min-width: 600px) {
-  .logo {
-    padding-left: 77px;
-    padding-top: 25px;
-  }
-  #myLinks {
-    padding-right: 77px;
-    padding-top: 25px;
-  }
-
-  .intro-title {
-    font-size: 57px;
-  }
-  .intro-subtitle {
-    font-size: 2.5rem;
-  }
-}
-*/
 .about-content {
+  /*color: white;*/
+  text-align: center;
+  background-color: black;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -145,7 +98,7 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 70px 50px;
+  /*padding: 70px 50px;*/
   font-family: Garamond;
   font-size: 15px;
   line-height: 1.2;
@@ -155,7 +108,8 @@ nav {
 }
 
 .about-content .say-hi .link-profile {
-  color: #3d3d3d;
+  /*color: #3d3d3d;*/
+  color: white;
 }
 
 @media (max-width: 320px) {
@@ -170,8 +124,9 @@ nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 13.13vh 13.54vw;
-    font-size: 22px;
+    padding: 12vh 25vw;
+    font-size: 1.5rem;
+    line-height: 1.5;
     position: absolute;
   }
 }
@@ -181,7 +136,8 @@ nav {
   font-family: lato;
   font-size: 15px;
   /*background-color: #f7f7f7;*/
-  color: #3d3d3d;
+  /*color: #3d3d3d;*/
+  color: white;
   padding: 25px;
   position: fixed;
   width: 100%;
@@ -203,7 +159,8 @@ nav {
 
 .footer .email a {
   text-decoration: none;
-  color: #3d3d3d;
+  /*color: #3d3d3d;*/
+  color: white;
 }
 
 .footer .credit-professional {
