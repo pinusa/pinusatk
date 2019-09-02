@@ -58,22 +58,11 @@ nav {
   }
 }
 
-@media screen and (min-width: 600px) {
-  .logo {
-    padding-left: 77px;
-    padding-top: 25px;
-  }
-  #myLinks {
-    padding-right: 77px;
-    padding-top: 25px;
-  }
-
-  .intro-title {
-    font-size: 57px;
-  }
-  .intro-subtitle {
-    font-size: 2.5rem;
-  }
+.intro-title {
+  font-size: 57px;
+}
+.intro-subtitle {
+  font-size: 2.5rem;
 }
 
 .homepage {

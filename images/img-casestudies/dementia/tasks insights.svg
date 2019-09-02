@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1377px" viewBox="0 0 1440 1377" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>tasks insights</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2.36227933,7.32555 L0.858073333,5.0182875 C0.543708,4.536015 0.671256667,3.8844225 1.142812,3.563565 C1.61307667,3.242055 2.25083467,3.3731625 2.564562,3.854775 L4.06812267,6.1626975 C4.15315267,6.293145 4.254294,6.3755025 4.331602,6.379455 C4.41792267,6.3899925 4.51841867,6.308955 4.61375933,6.1857525 L9.022662,0.549375 C9.37632667,0.09675 10.0205233,0.0242775 10.4637353,0.38532 C10.9056567,0.7476825 10.9778093,1.40652 10.6234993,1.859805 L6.21459667,7.49553 C5.72371067,8.1227475 5.04408667,8.475885 4.33739533,8.475885 C4.306478,8.475885 4.27555333,8.475885 4.24334533,8.473905 C3.501872,8.440965 2.81708533,8.0226 2.36227933,7.32555 Z" id="path-1"></path>
+        <path d="M1.4286675,2.44959 C0.8488875,2.44959 0.3791325,1.981155 0.3784725,1.400715 C0.3784725,0.822255 0.8482275,0.3525 1.4280075,0.3525 L13.629735,0.3525 C14.209515,0.3525 14.67927,0.822255 14.67927,1.400715 C14.67927,1.980495 14.209515,2.44959 13.629735,2.44959 L1.4286675,2.44959 Z" id="path-3"></path>
+        <path d="M10.4643807,0.77811 C10.906302,1.1398125 10.9778093,1.7993175 10.6241373,2.253255 L6.21523467,7.88832 C5.72500133,8.5155375 5.04537,8.869335 4.33804067,8.869335 C4.307116,8.869335 4.27619867,8.868015 4.24399067,8.8660425 C3.50315533,8.834415 2.81773067,8.4147375 2.36292467,7.71702 L0.859364,5.4110775 C0.544346,4.9281525 0.671902,4.2772125 1.14345733,3.9557025 C1.613722,3.635505 2.25018933,3.76464 2.5652,4.247565 L4.068768,6.5541675 C4.153798,6.6839625 4.25493933,6.7669725 4.33224,6.770925 C4.40568333,6.773565 4.519064,6.701745 4.61440467,6.5785425 L9.02330733,0.941505 C9.376972,0.48954 10.0211687,0.4164075 10.4643807,0.77811 Z" id="path-5"></path>
+        <path d="M1.4286675,2.84304 C0.8488875,2.84304 0.3784725,2.373945 0.3784725,1.794165 C0.3784725,1.214385 0.8482275,0.74529 1.4280075,0.74529 L13.629735,0.74529 C14.209515,0.74529 14.67927,1.214385 14.67927,1.794165 C14.67927,2.373945 14.209515,2.84304 13.629735,2.84304 L1.4286675,2.84304 Z" id="path-7"></path>
+        <path d="M2.36227933,7.35981 L0.858073333,5.053215 C0.543708,4.5716025 0.671256667,3.91935 1.142812,3.5991525 C1.61307667,3.277635 2.25083467,3.40809 2.564562,3.8890425 L4.06812267,6.1962975 C4.15315267,6.3267525 4.254294,6.4104225 4.331602,6.413715 C4.405038,6.4216275 4.51841867,6.3445425 4.61375933,6.2219925 L9.022662,0.583635 C9.37632667,0.13167 10.0205233,0.057885 10.4637353,0.4209075 C10.9056567,0.78195 10.9778093,1.4421075 10.6234993,1.8940725 L6.21459667,7.53111 C5.724356,8.1576675 5.04408667,8.511465 4.33739533,8.511465 C4.306478,8.511465 4.27555333,8.5101525 4.24334533,8.5088325 C3.50251733,8.476545 2.81708533,8.0568675 2.36227933,7.35981 Z" id="path-9"></path>
+        <path d="M1.4286675,2.48649 C0.8488875,2.48649 0.3784725,2.017395 0.3784725,1.437615 C0.3784725,0.857835 0.8482275,0.38808 1.4280075,0.38808 L13.629735,0.38808 C14.209515,0.38808 14.67927,0.857835 14.67927,1.437615 C14.67927,2.017395 14.209515,2.48649 13.629735,2.48649 L1.4286675,2.48649 Z" id="path-11"></path>
+        <path d="M15.0558629,0.46875 L33.1336076,0.46875 C35.82352,0.46875 38.0154743,2.59878 38.06768,5.235465 L40.2348648,5.235465 C44.3825067,5.235465 47.7564419,8.557335 47.7564419,12.64017 L47.7564419,52.36035 C47.7564419,56.4425325 44.3825067,59.7644025 40.2348648,59.7644025 L7.95461333,59.7644025 C3.80696838,59.7644025 0.432366705,56.4425325 0.433035962,52.3596975 L0.433035962,12.63951 C0.433035962,8.556675 3.80696838,5.234805 7.95461333,5.234805 L10.1217981,5.234805 C10.1740038,2.59878 12.3646171,0.46875 15.0558629,0.46875 Z M12.24816,5.3309925 L12.24816,7.23768 C12.24816,8.761575 13.507779,10.0021725 15.0558629,10.0021725 L33.1336076,10.0021725 C34.681699,10.0021725 35.9413181,8.761575 35.9413181,7.23768 L35.9413181,5.3309925 C35.9413181,3.8070975 34.681699,2.5665 33.1336076,2.5665 L15.0558629,2.5665 C13.507779,2.5665 12.24816,3.8070975 12.24816,5.3309925 Z M2.56341257,12.64017 L2.56341257,52.36035 C2.56341257,55.286925 4.982256,57.6673125 7.95461333,57.6673125 L40.2348648,57.6673125 C43.2085562,57.6673125 45.6260648,55.286265 45.6260648,52.36035 L45.6260648,12.64017 C45.6260648,9.7136025 43.2078857,7.3332075 40.2348648,7.3332075 L38.06768,7.3332075 C38.0154743,9.9692325 35.8241905,12.0992625 33.1336076,12.0992625 L15.0558629,12.0992625 C12.3652876,12.0992625 10.1740038,9.9692325 10.1217981,7.3332075 L7.95461333,7.3332075 C4.98158705,7.3332075 2.56341257,9.7142625 2.56341257,12.64017 Z" id="path-13"></path>
+        <path d="M28.7615132,5.82900673 C28.7153209,6.70948705 28.4280749,7.58779395 27.8816074,8.36182549 L10.356625,33.1852614 C9.77982263,34.0014895 8.61536579,34.9702675 7.70419342,35.3897815 L2.33665211,37.8674818 L2.04909421,37.2556217 L2.33497316,37.8683109 C2.18139384,37.938732 2.02734864,37.9824546 1.87721316,38 L1.5807559,38 C1.40373865,37.9783078 1.23788779,37.9167282 1.09194158,37.8156644 C0.748787632,37.5768898 0.575749211,37.1619361 0.617547368,36.6765107 L1.31889711,36.7353756 L0.617959474,36.6748528 L1.12914553,30.8248787 C1.215245,29.8324663 1.73477237,28.4151557 2.31073526,27.5993478 L19.8361374,2.77549765 C21.3897284,0.575536078 24.4576155,0.039534902 26.6761842,1.57913843 C27.9633867,2.47322073 28.6856828,3.87324833 28.7615132,5.32086364 L28.7615132,5.82900673 L28.7615132,5.82900673 Z M20.8473139,3.51010471 L18.7121813,6.47911922 L24.6386061,10.5183925 L26.7741584,7.55060745 C27.9183916,5.95940588 27.5200842,3.75884824 25.8867355,2.64500863 C24.2517003,1.53116902 21.9911274,1.91971529 20.8473139,3.51010471 Z M2.43097079,31.1349841 L1.95220368,36.6997704 L6.985955,34.3430506 C7.65923579,34.0276775 8.62286,33.2151428 9.04883184,32.6035962 L9.32659079,32.2044769 L3.62890737,28.1908216 L3.35033184,28.5903506 C2.92476447,29.2018973 2.494725,30.3906714 2.43097079,31.1349841 Z" id="path-15"></path>
+        <path d="M52.9682564,66.6248112 L23.1231221,66.6248112 C18.5555451,66.6248112 14.8400146,62.9085415 14.8392743,58.3409645 L14.8392743,56.2793988 L8.94425325,56.2793988 C4.37741376,56.2793988 0.661145051,52.562397 0.661145051,47.995551 L0.661145051,8.57228657 C0.661145051,4.00544985 4.37741376,0.289179104 8.94498985,0.289179104 L38.7901242,0.289179104 C43.3577012,0.289179104 47.0732316,4.00544985 47.0732316,8.57228657 L47.0732316,10.6353227 L52.9682564,10.6353227 C57.5358334,10.6353227 61.2521042,14.3508624 61.2513639,18.9176991 L61.2513639,58.341702 C61.2513639,62.9085415 57.5350931,66.6248112 52.9682564,66.6248112 Z M8.94498985,53.9318567 L38.7901242,53.9318567 C42.0648901,53.9318567 44.7271609,51.2681146 44.7271609,47.995551 L44.7271609,8.57228657 C44.7271609,5.2982609 42.0641499,2.63524985 38.7901242,2.63524985 L8.94498985,2.63524985 C5.67169522,2.63524985 3.00868881,5.29899194 3.00868881,8.57228657 L3.00868881,47.995551 C3.00868881,51.2688457 5.67243275,53.9318567 8.94498985,53.9318567 Z M58.9045528,58.341702 L58.9045528,18.9184394 C58.9045528,15.6451448 56.2408107,12.9821337 52.9682564,12.9821337 L47.0732316,12.9821337 L47.0732316,47.9962913 C47.0732316,52.5631281 43.3577012,56.2801391 38.7901242,56.2801391 L17.1853451,56.2801391 L17.1853451,58.341702 C17.1853451,61.6157342 19.8490964,64.2787406 23.1231221,64.2787406 L52.9682564,64.2787406 C56.241551,64.2787406 58.9045528,61.6149967 58.9045528,58.341702 Z" id="path-17"></path>
+        <path d="M24.0430818,0.275798209 C24.6909633,0.275798209 25.2164827,0.800586567 25.2164827,1.44920836 C25.2164827,2.09634955 24.6909633,2.62186896 24.0423415,2.62186896 L1.48307701,2.62186896 C0.835935821,2.62186896 0.308935821,2.09634955 0.308935821,1.44920836 C0.308935821,0.800586567 0.835935821,0.275798209 1.48307701,0.275798209 L24.0430818,0.275798209 Z" id="path-19"></path>
+        <path d="M24.0430818,0.810423284 C24.6909633,0.810423284 25.2164827,1.33595194 25.2164827,1.98309313 C25.2164827,2.63170567 24.6909633,3.15649403 24.0423415,3.15649403 L1.48307701,3.15649403 C0.835935821,3.15649403 0.308935821,2.63170567 0.308935821,1.98309313 C0.308935821,1.33595194 0.835935821,0.810423284 1.48307701,0.810423284 L24.0430818,0.810423284 Z" id="path-21"></path>
+        <path d="M24.0430818,0.665815224 C24.6909633,0.665815224 25.2164827,1.19060358 25.2164827,1.83921612 C25.2164827,2.48783791 24.6909633,3.01262627 24.0423415,3.01262627 L1.48307701,3.01262627 C0.835935821,3.01262627 0.308935821,2.48783791 0.308935821,1.83921612 C0.308935821,1.19060358 0.835935821,0.665815224 1.48307701,0.665815224 L24.0430818,0.665815224 Z" id="path-23"></path>
+        <path d="M4.42582538,39.6310057 C2.02983615,39.6310057 0.081485,37.6998743 0.081485,35.3280343 L0.081485,4.59419429 C0.081485,2.22102857 2.02983615,0.29056 4.42582538,0.29056 L24.0237731,0.29056 C26.4190885,0.29056 28.3674385,2.22102857 28.3674385,4.59419429 L28.3674385,35.3280343 C28.3674385,37.6998743 26.4190885,39.6310057 24.0237731,39.6310057 L4.42582538,39.6310057 Z M2.23774077,4.59419429 L2.23774077,35.3280343 C2.23774077,36.5233486 3.21834962,37.4946171 4.42582538,37.4946171 L24.0237731,37.4946171 C25.2305808,37.4946171 26.2111885,36.5233486 26.2111885,35.3280343 L26.2111885,4.59419429 C26.2111885,3.39821714 25.2305808,2.42694857 24.0237731,2.42694857 L4.42582538,2.42694857 C3.21902692,2.42694857 2.23774077,3.39821714 2.23774077,4.59419429 Z" id="path-25"></path>
+        <path d="M2.72695167,5.6022324 C1.26797667,5.6022324 0.0852333333,4.3856976 0.0852333333,2.8850244 C0.0852333333,1.384356 1.26797667,0.1678176 2.72695167,0.1678176 C4.18593833,0.1678176 5.36868167,1.384356 5.36868167,2.8850244 C5.36868167,4.3856976 4.18593833,5.6022324 2.72695167,5.6022324 Z" id="path-27"></path>
+        <path d="M7.80026838,61 C3.67161616,61 0.313129978,57.5940673 0.313129978,53.407917 L0.313129978,7.79530509 C0.313129978,3.60983038 3.67161616,0.203889623 7.80026838,0.203889623 L33.5069076,0.203889623 C37.6348946,0.203889623 40.9933849,3.60983038 40.9933849,7.79530509 L40.9933849,53.4085926 C40.9933849,57.5940673 37.6348946,61 33.5069076,61 L7.80026838,61 Z M2.43375243,7.79530509 L2.43375243,53.407917 C2.43375243,56.4085427 4.84085643,58.8491688 7.80026838,58.8491688 L33.5069076,58.8491688 C36.4663184,58.8491688 38.8727595,56.4078671 38.8727595,53.407917 L38.8727595,7.79530509 C38.8727595,4.79332245 36.4656486,2.35404755 33.5069076,2.35404755 L7.80026838,2.35404755 C4.84085643,2.35404755 2.43375243,4.79400151 2.43375243,7.79530509 Z" id="path-29"></path>
+    </defs>
+    <g id="Final-Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dementia-Friends---Final" transform="translate(0.000000, -6537.000000)">
+            <g id="tasks-insights" transform="translate(0.000000, 6537.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="1440" height="1377"></rect>
+                <path d="M189.5,1375 L1251.5,1375" id="Line-4" stroke="#0074FF" stroke-width="2" stroke-linecap="square"></path>
+                <g id="tasks-icons" transform="translate(264.000000, 38.000000)">
+                    <text id="Device-Usage" font-family="Lato-Bold, Lato" font-size="20" font-weight="bold" letter-spacing="-0.266666661" fill="#0074FF">
+                        <tspan x="0" y="112">Device Usage</tspan>
+                    </text>
+                    <text id="Global-Navigation" font-family="Lato-Bold, Lato" font-size="20" font-weight="bold" letter-spacing="-0.266666661" fill="#0074FF">
+                        <tspan x="227.595" y="112">Global </tspan>
+                        <tspan x="208.245" y="136">Navigation</tspan>
+                    </text>
+                    <text id="Feature-Prioritizati" font-family="Lato-Bold, Lato" font-size="20" font-weight="bold" letter-spacing="-0.266666661" fill="#0074FF">
+                        <tspan x="418.593333" y="112">Feature</tspan>
+                        <tspan x="394.85" y="136">Prioritization</tspan>
+                    </text>
+                    <text id="Finding-Session-Reso" font-family="Lato-Bold, Lato" font-size="20" font-weight="bold" letter-spacing="-0.266666661" fill="#0074FF">
+                        <tspan x="581.08" y="112">Finding Session</tspan>
+                        <tspan x="603.935" y="136">Resources</tspan>
+                    </text>
+                    <text id="Assistance-from-DFO" font-family="Lato-Bold, Lato" font-size="20" font-weight="bold" letter-spacing="-0.266666661" fill="#0074FF">
+                        <tspan x="799.658333" y="112">Assistance </tspan>
+                        <tspan x="801.566667" y="136">from DFO</tspan>
+                    </text>
+                    <g id="Group-25" transform="translate(422.000000, 0.000000)">
+                        <g id="Group-3" transform="translate(9.000000, 16.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <polygon id="Fill-1" fill="#0074FF" mask="url(#mask-2)" points="-2.53533793 -3.1384125 14.0695133 -3.1384125 14.0695133 11.7700875 -2.53533793 11.7700875"></polygon>
+                        </g>
+                        <g id="Group-6" transform="translate(22.000000, 20.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Clip-5"></g>
+                            <polygon id="Fill-4" fill="#0074FF" mask="url(#mask-4)" points="-2.91573 -2.9417025 17.9734725 -2.9417025 17.9734725 5.7437925 -2.91573 5.7437925"></polygon>
+                        </g>
+                        <g id="Group-9" transform="translate(9.000000, 28.000000)">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <g id="Clip-8"></g>
+                            <polygon id="Fill-7" fill="#0074FF" mask="url(#mask-6)" points="-2.53453347 -2.745945 14.0698873 -2.745945 14.0698873 12.1635375 -2.53453347 12.1635375"></polygon>
+                        </g>
+                        <g id="Group-12" transform="translate(22.000000, 32.000000)">
+                            <mask id="mask-8" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <g id="Clip-11"></g>
+                            <polygon id="Fill-10" fill="#0074FF" mask="url(#mask-8)" points="-2.91573 -2.5489125 17.9734725 -2.5489125 17.9734725 6.1372425 -2.91573 6.1372425"></polygon>
+                        </g>
+                        <g id="Group-15" transform="translate(9.000000, 41.000000)">
+                            <mask id="mask-10" fill="white">
+                                <use xlink:href="#path-9"></use>
+                            </mask>
+                            <g id="Clip-14"></g>
+                            <polygon id="Fill-13" fill="#0074FF" mask="url(#mask-10)" points="-2.53533793 -3.103965 14.0695133 -3.103965 14.0695133 11.8056675 -2.53533793 11.8056675"></polygon>
+                        </g>
+                        <g id="Group-18" transform="translate(22.000000, 45.000000)">
+                            <mask id="mask-12" fill="white">
+                                <use xlink:href="#path-11"></use>
+                            </mask>
+                            <g id="Clip-17"></g>
+                            <polygon id="Fill-16" fill="#0074FF" mask="url(#mask-12)" points="-2.91573 -2.9061225 17.9734725 -2.9061225 17.9734725 5.7806925 -2.91573 5.7806925"></polygon>
+                        </g>
+                        <g id="Group-21">
+                            <mask id="mask-14" fill="white">
+                                <use xlink:href="#path-13"></use>
+                            </mask>
+                            <g id="Clip-20"></g>
+                            <polygon id="Fill-19" fill="#0074FF" mask="url(#mask-14)" points="-2.91345524 -2.825475 51.1029333 -2.825475 51.1029333 63.058605 -2.91345524 63.058605"></polygon>
+                        </g>
+                        <g id="Group-24" transform="translate(33.000000, 36.000000)">
+                            <mask id="mask-16" fill="white">
+                                <use xlink:href="#path-15"></use>
+                            </mask>
+                            <g id="Clip-23"></g>
+                            <polygon id="Fill-22" fill="#0074FF" mask="url(#mask-16)" points="-2.74059158 -2.57229451 32.1201634 -2.57229451 32.1201634 41.2815116 -2.74059158 41.2815116"></polygon>
+                        </g>
+                    </g>
+                    <g id="Group-13" transform="translate(618.000000, 0.000000)">
+                        <g id="Group-3" transform="translate(0.000000, 0.636194)">
+                            <mask id="mask-18" fill="white">
+                                <use xlink:href="#path-17"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <polygon id="Fill-1" fill="#0074FF" mask="url(#mask-18)" points="-3.02416752 -3.39613791 64.9366809 -3.39613791 64.9366809 70.3101237 -3.02416752 70.3101237"></polygon>
+                        </g>
+                        <g id="Group-6" transform="translate(11.104478, 27.472015)">
+                            <mask id="mask-20" fill="white">
+                                <use xlink:href="#path-19"></use>
+                            </mask>
+                            <g id="Clip-5"></g>
+                            <polygon id="Fill-4" fill="#0074FF" mask="url(#mask-20)" points="-3.37637749 -3.40950955 28.9017997 -3.40950955 28.9017997 6.30718597 -3.37637749 6.30718597"></polygon>
+                        </g>
+                        <g id="Group-9" transform="translate(11.104478, 15.442164)">
+                            <mask id="mask-22" fill="white">
+                                <use xlink:href="#path-21"></use>
+                            </mask>
+                            <g id="Clip-8"></g>
+                            <polygon id="Fill-7" fill="#0074FF" mask="url(#mask-22)" points="-3.37637749 -2.87488448 28.9017997 -2.87488448 28.9017997 6.84181104 -3.37637749 6.84181104"></polygon>
+                        </g>
+                        <g id="Group-12" transform="translate(11.104478, 38.576493)">
+                            <mask id="mask-24" fill="white">
+                                <use xlink:href="#path-23"></use>
+                            </mask>
+                            <g id="Clip-11"></g>
+                            <polygon id="Fill-10" fill="#0074FF" mask="url(#mask-24)" points="-3.37637749 -3.01949254 28.9017997 -3.01949254 28.9017997 6.69793403 -3.37637749 6.69793403"></polygon>
+                        </g>
+                    </g>
+                    <image id="Bitmap" x="815" y="2.48689958e-13" width="62" height="62.5055597" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAABDCAYAAADHyrhzAAABYWlDQ1BrQ0dDb2xvclNwYWNlRGlzcGxheVAzAAAokWNgYFJJLCjIYWFgYMjNKykKcndSiIiMUmB/yMAOhLwMYgwKicnFBY4BAT5AJQwwGhV8u8bACKIv64LMOiU1tUm1XsDXYqbw1YuvRJsw1aMArpTU4mQg/QeIU5MLikoYGBhTgGzl8pICELsDyBYpAjoKyJ4DYqdD2BtA7CQI+whYTUiQM5B9A8hWSM5IBJrB+API1klCEk9HYkPtBQFul8zigpzESoUAYwKuJQOUpFaUgGjn/ILKosz0jBIFR2AopSp45iXr6SgYGRiaMzCAwhyi+nMgOCwZxc4gxJrvMzDY7v////9uhJjXfgaGjUCdXDsRYhoWDAyC3AwMJ3YWJBYlgoWYgZgpLY2B4dNyBgbeSAYG4QtAPdHFacZGYHlGHicGBtZ7//9/VmNgYJ/MwPB3wv//vxf9//93MVDzHQaGA3kAFSFl7jXH0fsAAAusSURBVHgB5Zx5kBT1Fcdf9xy73HhwCCK3BFGjgIqGgBIVIqkcRgyCWnglULGiqSQmRYiJRHNKBXMoFsE/DEGCwYoaI1peCBFQA8qlCHIKct/H7hw9eZ/u/S3DMDM7vdO9uyTfqqF3errf7/e+/Tve1VgZhQQAx8nItn362ZuRXQczsls/uw5kZM8hkUPHMnK4SvTDMSNVCZG0I5JK60eP/B219RMRidQcm8UtaVEp0rLSO7ZuZsmZrS1p11pqjpZ0Ot2Ss06zxLKsADQQsepDxk5VcvUWR1Z/4siG7Y5s3JWRzfpJqnINjYqoyDntLOna3pYeHSzpe7Yt/brYLmF++1ISGUerM7JojSP//jAt765z5JM9xQcTD+qMlt4TbN3cEvfTTISny9OOqwLRiOWOhpj+zWhwR4mSCaGpdEYSKUaSyEEdVYeO6kf/3n/EG3X7DtetZpczLRnY05bBfSMy6FxbmlXUPXqKkrHko7Q8szgtb65KS7V2LhdtW4j06WxLr46WdNMnwxPqrEO3fRtVVJUNC0kla8f+jGzVh7J5d0Y27nTk4+0ZWbPVkQNHT261MiYypF9Erh8UkUt761wsgLxkvLEyLY++mJR12kA2UBSWB/Sy5cKuts5ZfaRNDFv3OLJ8k+OO4MUfOfKprmPZ6H2WJRNGxOTK808m5QQy9h3OyOQ5CZm/Sle0GrBAjRwYkeEXRaRnx6anvOlnoePaTx15+b20vPBuWrbraDIY2s+W+2+My2ktj4/gWjJYFO/6U7VsqVkPuutiNGF4TK66wNY5ffwGI+xUO6Z1t3tthSPTXkrKhh0eKV3OsGT6tyvcaY0+LhlVyYzc+cdq3R28i8YPj8rtX4iGOu8bi0wW5ydeTSkp3iJ43tmW/PnuCqmMWeKO++kvp2qJmHhDTL55bex/kggeAAs7+qEnYACgP7Axjp5a4H0ZOSAiN1yue93/AdATfQH6w0OUxaUq6Vl/d1/nsRUmF4mUZ50e1C3wiNovSX0OOnKFnRibo7naA22aezZKPBruWoW+Ly3z9IeH6JurPbMRA6VD2+AbX68W6nxt470NjqzdljlhRa+L9I7an96dLLmouy1Dz4tIj4B3M/TFTFiiWzA8RDGjAQ0GibfXqq0yLyXLNx7fpv3KZyvks2C1I394IeXaNhNGROWyc0+2EfzKNtdfrHpDBjxEdx/yyMAJCgL4fb/9R1JmLzzuqMS075Dd7xxbure33BHI/t6igqlhuVOEqZLUKXSkWgR7Bwtzw86MrFQD6n0lFDMdY2rC4wkZPTgiP/hqLBAHzegND67VzPIZjO8q8tDfk64JD7Ht24jccXVMrusfUZ+kFLLzX3NEPd1/LU3LjFeSsvOAuETju0waFS/7+Rm98Zrt1rpYgb36NMrFc2+naokY3NeWufdVyqgroiUSUbh1iEQO8pAL8Jlor1wYvVupI2l3becJX/dpeWQcUM9yynO6LSnOP8eSh8fFyyYhV1FIQS7yAe3RbjlYW6M3jqZ9cQ+PjEVr1DNVS7S+mP5yUoM4njv+s9FxddPzD/n6yjf3IRf5uP20R7v1BfouVr0Ba5p9rTpggNiBMb7cEz7+2bLbkTlveUK/dplugR08gn2I8HUp8mkH0C7t1wfoi94AHmw80avO9zr/6IspmbfU3zzE1n/gb0k3ONNcd4fx6tw1BL6l7dAeQSGvfX+jGj3RFwxTZxQeXEcNj/WWqVUau/TUGHKe7S5Y/XUKFYoQEdf8z8eOO5re0egX+P5XYjJmSMOZ87PeTMnDz3rTBKPxps9HZaAaUa00opYPx9TiXbrekaffSqmR5fWZmOrM71ZqbFVjqSYGukmjRfc+kZBNNUYYwgjfmQBscw3Q2jqACOZCXnZsgGu/qNvng2OC2fuRVwqwaSbNSsqLuu1mA8uVaFul7ryO6nw0UROg1odttlKu76Y2z9Tb4xqh82ZGLRn8yILCPHpa52FuhIjf84FY4xh9IqOu0DnXCHEPovL096mFKdeKzNfH3HMErOgvI6lCXXeDE8gwJ2GcEbJCLb6tGvpnL2ZEoCtst21huZHoPp1sNypt7mvs42ZdSNdszWg8VGOhGjw2i2MzXVtOV4uXsOUFGq7sqrHafOmFvGQ0tlKN1X4oqx1D9/WVjrzyflrW73DkqPob5YKdgy316s9G3N0vjCkZ+MggbP/DJxNiLLtySch3PxHuX98ad9MT+X6v77lAyfhAM2zjp1W7liEd6qn5lMt624GY5ThrS9Z6+RFk40tMG1/hZtD4HgQCIyObCFJ+P/1GTEb0D34WYixhZJHUCpqQQMjIJWLqHfFAAzC5T51M370zEoETUrYTkUvEI3eGSwTEEOmCcEYgzhpTk36Ui7LIyEdEsVxmuZ3Nvj8MQupNRmMSYUgJmpB6kdEUiAiDEN8LaFBEbNvrZcup9Dmmpn4zNfOpxKlvdj+IRdUXGeUSgc8zT5M2T76Rcn0I83Rzj306W3LrlVEZcXEkrw+Re735Xi4hJZNRLhE4Tz+ZlZAP1ZHKRkut5Gmj1T3EMo1jZX7/jJLy8zFxX6UQ5RBSEhnlEkHlz8S/Jmp9lH5dLPm65jqHajVNdn0E+ZL5eu3cRSlZtcUjDZ/kF2PjbuWNIamuY30JqZOMzbscueURz8RmX8eO8LN9Ll2flvGPJdyqPhSbpNnvUixTLM0HNQeDk0dOY9qEuPTvUXomLZeQv9xTURvEKURmUTKY4zdPxaDJuAaOXyKIiI2eUqWFaVrw1krkcfUl/ORLmVoYVJRPUj82+3uVtYUlhRTKPp9NSF+tw5h5b0XRNajo1rrwA8clggZ+PCrma0Rwz2Pzki4RpBen3OaPCO4nSMt93A+hyPMD7BD6DXig6FMMRcl4dbkXWyS0Z2oZignL/o2Y6vPvePePHRp1t8zs30v9m62W+wHykOsH9Jv+A6NPofuLkrFRE7/gEo045wuTFRLK+ee04xrjccOEtw0rz3vlfje4q/Ke10I1P6Df9B8YfQrdX5SMYxpVBhSQ+MVi9SzB5VoqWSh0X6pM7kcOIPPnF6b/Rp9C9xclo9BNdZ0n7GdytwN6lr4DFJNr5CAX+WEgFDIwnkwdOfmLIGDkIDfXOAtCPjJCISP7wZEgDgIksAyy5ZtzQRyzmghCnCcDE9uQwOsWQYDXNQBykR8GQiGDciBSd6Ccmq5shUloAeSGVaQfChl0+lKNioMFH5RX94EM0p7IAUau+yXgf0Ij40sDPduCGOVszYOWA+5HDjByvW/B/hsaGbwRZOo+ZrxCUtif5WjU5D7uB8hDblgIT7L2+DsjY1qg7m2F92hon5JkP9ij5Yjcx1aKHOSFiVDJ4L2xB27yyhPJ6t+sBTHUcpYCrhv7u6raepHJKgd5YaI8p6GEnl2jieL918fkN1ooSw3nuN9Xu/VT1EdQVJb9LgvvhFBWTb0FtdyArfQ+LYAl4Rw2QicDBUZ9Luq+v0bYb7fGJlCUD/ZCZ30BxoT9eOcs27o8U2MghP1wxRsCDUIGiqDQsxMrZeb8lFsdRHwCxSku0eKiE3QlkENVzc3quvN+a0OhwchAIRS765qYjFOXnOmAQUZlkEkVUFlzYTfbnT6xEN9+LERuUTIocAOE/4IEil7SK+J+gpRbSJbxco0+ha4rujxTuwX2lvBSbaEGmsL5fTolgdHH+3byv0XJMP4FQ/pUhum/0aeQLkXJGKJv/wDKIF9f4T/CVKjRhjxPv00Zp9GnUPtFyeDtZuqnwK+eSbjFsIUENcXzpCp+OVcTuQr0QJ9iKPorFXU/UoOJJA6l1BhMyzQpdCqA5BX9xa6h/+hRV4Vg0SSSUZqXXCbPSbrRbs7xXtegPrZbb83/edFUQFE9QSDegV9Ws85RyHv/jTH58qVFN05XhZLI4Erey4CQ3JrxpkJEvn5QQw4Rg/qU9sRKJoPGeCf1n5q3eE2TS7xwT9ovrHhkPuXqOscoII3ZW8u4h10Q0dhHxNdLQP8FMeh8NJaE+ssAAAAASUVORK5CYII="></image>
+                    <g id="Group-10" transform="translate(38.000000, 0.000000)">
+                        <g id="Group-3" transform="translate(6.000000, 8.000000)">
+                            <mask id="mask-26" fill="white">
+                                <use xlink:href="#path-25"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <polygon id="Fill-1" fill="#0074FF" mask="url(#mask-26)" points="-3.30459423 -3.06326857 31.7535154 -3.06326857 31.7535154 42.9848366 -3.30459423 42.9848366"></polygon>
+                        </g>
+                        <g id="Group-6" transform="translate(18.000000, 50.000000)">
+                            <mask id="mask-28" fill="white">
+                                <use xlink:href="#path-27"></use>
+                            </mask>
+                            <g id="Clip-5"></g>
+                            <polygon id="Fill-4" fill="#0074FF" mask="url(#mask-28)" points="-3.33847833 -3.3537 8.79239333 -3.3537 8.79239333 9.1237548 -3.33847833 9.1237548"></polygon>
+                        </g>
+                        <g id="Group-9">
+                            <mask id="mask-30" fill="white">
+                                <use xlink:href="#path-29"></use>
+                            </mask>
+                            <g id="Clip-8"></g>
+                            <polygon id="Fill-7" fill="#0074FF" mask="url(#mask-30)" points="-3.01804054 -3.17366887 44.3245524 -3.17366887 44.3245524 64.3775619 -3.01804054 64.3775619"></polygon>
+                        </g>
+                    </g>
+                    <g id="Group" transform="translate(224.000000, 0.000000)">
+                        <g id="Group-2" transform="translate(0.000000, 16.315789)" stroke="#0074FF" stroke-width="2">
+                            <path d="M-7.46069873e-14,15.7719298 C-7.46069873e-14,11.4210526 0.0447035151,8.47729638 0.134110545,6.94066107 C-7.46069873e-14,3.80701754 2.1754386,0 7.61403509,0 C13.7777778,0 26.4678363,0 45.6842105,0 C51.122807,0 52.754386,2.71929825 52.754386,8.15789474 C52.754386,10.2901564 52.8010567,13.2893395 52.8578027,16.6213403 C53.0181631,26.0373583 52.754386,38.0701754 52.754386,40.7894737 C52.754386,44.5964912 50.5789474,45.6842105 45.6842105,45.6842105 C42.4210526,45.6842105 29.005848,45.6842105 5.43859649,45.6842105 C2.1754386,45.3216374 0.362573099,43.6900585 -7.46069873e-14,40.7894737 L-7.46069873e-14,15.7719298 Z" id="Path-2"></path>
+                            <path d="M0,15.7719298 L53.2982456,15.7719298" id="Path-3"></path>
+                        </g>
+                        <circle id="Oval" fill="#0074FF" cx="7.61403509" cy="25.0175439" r="2.1754386"></circle>
+                        <circle id="Oval" fill="#0074FF" cx="15.2280702" cy="25.0175439" r="2.1754386"></circle>
+                        <circle id="Oval" fill="#0074FF" cx="22.8421053" cy="25.0175439" r="2.1754386"></circle>
+                        <path d="M60.0421053,42.9649123 C58.7368421,42.9649123 58.954386,42.6385965 58.954386,41.3333333 L58.954386,8.70175439 C58.954386,6.09122807 56.2350877,2.1754386 52.4280702,2.1754386 L12.1824561,2.1754386 C9.57192982,2.1754386 5.65614035,4.35087719 5.65614035,8.70175439 C5.65614035,10.0070175 5.87368421,11.4210526 4.56842105,11.4210526 C3.26315789,11.4210526 3.26315789,10.2245614 3.26315789,8.91929825 C3.26315789,3.91578947 7.39649123,0 12.1824561,0 L52.2105263,0 C57.2140351,0 61.1298246,4.13333333 61.1298246,8.91929825 L61.1298246,41.1157895 C61.1298246,42.4210526 61.3473684,42.9649123 60.0421053,42.9649123 Z" id="Path" fill="#0074FF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+                <g id="Group-28" transform="translate(187.000000, 270.000000)">
+                    <text id="Champions-access-the" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" letter-spacing="-0.266666661" fill="#000000">
+                        <tspan x="552" y="70">Champions access the dashboard via desktop/laptop </tspan>
+                        <tspan x="552" y="94">devices as behaviourally the tasks are the types of tasks </tspan>
+                        <tspan x="552" y="118">they would always do this way. Having presented our </tspan>
+                        <tspan x="552" y="142">findings to Dementia Friends, we decided to </tspan>
+                        <tspan x="977.145" y="142" font-family="Lato-Bold, Lato" font-weight="bold">focus our </tspan>
+                        <tspan x="552" y="166" font-family="Lato-Bold, Lato" font-weight="bold">design on desktop/laptop, not mobile, but with a </tspan>
+                        <tspan x="552" y="190" font-family="Lato-Bold, Lato" font-weight="bold">responsive focus.</tspan>
+                    </text>
+                    <g id="Group-5" fill="#0074FF" font-family="Lato-Bold, Lato" font-size="25" font-weight="bold" letter-spacing="-0.333333326">
+                        <text id="1">
+                            <tspan x="3.41666666" y="25">1</tspan>
+                        </text>
+                        <text id="Device-Usage">
+                            <tspan x="37" y="25">Device Usage</tspan>
+                        </text>
+                    </g>
+                    <text id="9/11-Champions-compl" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" letter-spacing="-0.266666661" fill="#000000">
+                        <tspan x="1" y="70">9/11 Champions complete all of their tasks on a </tspan>
+                        <tspan x="1" y="94">desktop/laptop. Champions take their role very seriously, </tspan>
+                        <tspan x="1" y="118">and want to make sure they complete their tasks </tspan>
+                        <tspan x="1" y="142">properly, associating mobile with making mistakes and </tspan>
+                        <tspan x="1" y="166">not giving full concentration to the task in hand.</tspan>
+                    </text>
+                    <polygon id="Triangle" fill-opacity="0.7" fill="#9B9B9B" transform="translate(523.500000, 26.500000) rotate(90.000000) translate(-523.500000, -26.500000) " points="523.5 18 532 35 515 35"></polygon>
+                    <polygon id="Triangle" fill="#0074FF" transform="translate(523.500000, 102.500000) rotate(90.000000) translate(-523.500000, -102.500000) " points="523.5 94 532 111 515 111"></polygon>
+                    <text id="Findings" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" letter-spacing="-0.266666661" fill="#9B9B9B">
+                        <tspan x="414" y="34">Findings</tspan>
+                    </text>
+                    <text id="Takeaways" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" letter-spacing="-0.266666661" fill="#9B9B9B">
+                        <tspan x="552" y="34">Takeaways</tspan>
+                    </text>
+                </g>
+                <g id="Group-22" transform="translate(189.000000, 496.000000)">
+                    <polygon id="Triangle" fill="#0074FF" transform="translate(522.500000, 84.500000) rotate(90.000000) translate(-522.500000, -84.500000) " points="522.5 76 531 93 514 93"></polygon>
+                    <text id="The-Global-Navigatio" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" letter-spacing="-0.266666661" fill="#000000">
+                        <tspan x="551" y="70">The Global Navigation on the current site is detrimental to </tspan>
+                        <tspan x="551" y="94">the user experience of the Champions. We presented our </tspan>
+                        <tspan x="551" y="118">findings to the Dementia Friends developer and it was </tspan>
+                        <tspan x="551" y="142">agreed that we could </tspan>
+                        <tspan x="734.22" y="142" font-family="Lato-Bold, Lato" font-weight="bold">design for a microsite.</tspan>
+                    </text>
+                    <g id="Group-5" fill="#0074FF" font-family="Lato-Bold, Lato" font-size="25" font-weight="bold" letter-spacing="-0.333333326">
+                        <text id="2">
+                            <tspan x="3.41666666" y="25">2</tspan>
+                        </text>
+                        <text id="Global-Navigation">
+                            <tspan x="37" y="25">Global Navigation</tspan>
+                        </text>
+                    </g>
+                    <text id="The-current-dashboar" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" letter-spacing="-0.266666661" fill="#000000">
+                        <tspan x="0" y="70">The current dashboard sat within the wider Dementia </tspan>
+                        <tspan x="0" y="94">Friends site. Champions were confused by the Global </tspan>
+                        <tspan x="0" y="118">Navigation which was aimed at the main site and not </tspan>
+                        <tspan x="0" y="142">the dashboard.</tspan>
+                    </text>
+                </g>
+                <g id="Group-23" transform="translate(188.000000, 697.000000)">
+                    <polygon id="Triangle" fill="#0074FF" transform="translate(523.500000, 98.500000) rotate(90.000000) translate(-523.500000, -98.500000) " points="523.5 90 532 107 515 107"></polygon>
+                    <text id="With-the-validation" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" letter-spacing="-0.266666661" fill="#000000">
+                        <tspan x="552" y="70">With the validation of the top features, </tspan>
+                        <tspan x="932.962593" y="70" font-family="Lato-Bold, Lato" font-weight="bold">we could give </tspan>
+                        <tspan x="552" y="94" font-family="Lato-Bold, Lato" font-weight="bold">hierarchy to the Global Navigation and could make them </tspan>
+                        <tspan x="552" y="118" font-family="Lato-Bold, Lato" font-weight="bold">main Call-To-Actions on the homepage.</tspan>
+                    </text>
+                    <g id="Group-5" fill="#0074FF" font-family="Lato-Bold, Lato" font-size="25" font-weight="bold" letter-spacing="-0.333333326">
+                        <text id="3">
+                            <tspan x="3.41666666" y="25">3</tspan>
+                        </text>
+                        <text id="Feature-Prioritizati">
+                            <tspan x="37" y="25">Feature Prioritization</tspan>
+                        </text>
+                    </g>
+                    <text id="By-asking-Champions" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" letter-spacing="-0.266666661" fill="#000000">
+                        <tspan x="1" y="70">By asking Champions to sort a list of the dashboards </tspan>
+                        <tspan x="1" y="94">features into a prioritised order, we validated the list that </tspan>
+                        <tspan x="1" y="118">Dementia Friends had given us. </tspan>
+                        <tspan x="272.42" y="118" font-family="Lato-Bold, Lato" font-weight="bold">Champions see </tspan>
+                        <tspan x="1" y="142" font-family="Lato-Bold, Lato" font-weight="bold">Creating, Reporting, Ordering Materials and </tspan>
+                        <tspan x="1" y="166" font-family="Lato-Bold, Lato" font-weight="bold">Downloading Resources as their main tasks. They saw </tspan>
+                        <tspan x="1" y="190" font-family="Lato-Bold, Lato" font-weight="bold">the rest as superfluous.</tspan>
+                    </text>
+                </g>
+                <g id="Group-26" transform="translate(189.000000, 947.000000)">
+                    <polygon id="Triangle" fill="#0074FF" transform="translate(523.500000, 82.500000) rotate(90.000000) translate(-523.500000, -82.500000) " points="523.5 74 532 91 515 91"></polygon>
+                    <text id="With-over-110-resour" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" letter-spacing="-0.266666661" fill="#000000">
+                        <tspan x="552" y="70">With over 110 resources, this section would require some </tspan>
+                        <tspan x="552" y="94">strong Information Architecture. We ran a card sorting to </tspan>
+                        <tspan x="552" y="118">give understanding of how we might structure this section, </tspan>
+                        <tspan x="552" y="142">but no patterns emerged, emphasizing the extensive nature </tspan>
+                        <tspan x="552" y="166">of the resources.</tspan>
+                    </text>
+                    <g id="Group-5" fill="#0074FF" font-family="Lato-Bold, Lato" font-size="25" font-weight="bold" letter-spacing="-0.333333326">
+                        <text id="4">
+                            <tspan x="3.41666666" y="25">4</tspan>
+                        </text>
+                        <text id="Finding-Session-Reso">
+                            <tspan x="37" y="25">Finding Session Resources</tspan>
+                        </text>
+                    </g>
+                    <text id="Champions-believe-th" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" letter-spacing="-0.266666661" fill="#000000">
+                        <tspan x="0" y="70">Champions believe the resources are very good but find </tspan>
+                        <tspan x="0" y="94">it extremely difficult to navigate through them. This </tspan>
+                        <tspan x="0" y="118">causes great frustration.</tspan>
+                    </text>
+                </g>
+                <g id="Group-27" transform="translate(189.000000, 1173.000000)">
+                    <polygon id="Triangle" fill="#0074FF" transform="translate(522.500000, 86.500000) rotate(90.000000) translate(-522.500000, -86.500000) " points="522.5 78 531 95 514 95"></polygon>
+                    <text id="This-situation-can-b" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" letter-spacing="-0.266666661" fill="#000000">
+                        <tspan x="551" y="71">This situation can be reminded by a simpler, better </tspan>
+                        <tspan x="551" y="95">structured dashboard. However, if they need </tspan>
+                        <tspan x="960.502381" y="95" font-family="Lato-Bold, Lato" font-weight="bold">the contact </tspan>
+                        <tspan x="551" y="119" font-family="Lato-Bold, Lato" font-weight="bold">details of their DFO, these need to be readily available for </tspan>
+                        <tspan x="551" y="143" font-family="Lato-Bold, Lato" font-weight="bold">them to ease the process.</tspan>
+                    </text>
+                    <g id="Group-5" fill="#0074FF" font-family="Lato-Bold, Lato" font-size="25" font-weight="bold" letter-spacing="-0.333333326">
+                        <text id="5">
+                            <tspan x="3.41666666" y="25">5</tspan>
+                        </text>
+                        <text id="Assistance-from-Deme">
+                            <tspan x="37" y="25">Assistance from Dementia Friends Officers (DFO)</tspan>
+                        </text>
+                    </g>
+                    <text id="When-Champions-got-s" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" letter-spacing="-0.266666661" fill="#000000">
+                        <tspan x="1" y="71">When Champions got stuck on their tasks, their first </tspan>
+                        <tspan x="1" y="95">action was to get in touch with their DFO to ask for </tspan>
+                        <tspan x="1" y="119">help, increasing their work load.</tspan>
+                    </text>
+                </g>
+                <path d="M184.5,233 L1254.5,233" id="Line-4" stroke="#0074FF" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
