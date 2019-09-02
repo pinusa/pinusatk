@@ -30,21 +30,21 @@ body {
   background-color: white;
 }
 
+/* Navigation */
 .logo {
   margin: 0;
-  padding-left: 25px;
+  padding-left: 5.347vw;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .logo {
     width: 45px;
   }
 }
 
 nav {
-  /* 100vw = 100% of viewport width*/
   width: 100vw;
-  background-color: white;
+  background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,13 +54,14 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 25px;
+  padding-top: 50px;
 }
 
 #myLinks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-right: 5.347vw;
 }
 
 #myLinks a {
@@ -79,6 +80,45 @@ nav {
   color: #3d3d3d;
 }
 
+#myLinks a:last-child {
+  padding-right: 0;
+}
+
+/*.logo {
+  margin: 0;
+  padding-left: 25px;
+
+  @media (max-width: 600px) {
+    width: 45px;
+  }
+}
+
+nav {
+  
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+#myLinks {
+  display: flex;
+  a {
+    display: flex;
+    padding-right: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #3d3d3d;
+
+    &:visited {
+      color: #3d3d3d;
+    }
+  }
+}
 @media screen and (min-width: 600px) {
   .logo {
     padding-left: 77px;
@@ -88,6 +128,7 @@ nav {
     padding-right: 77px;
     padding-top: 25px;
   }
+
   .intro-title {
     font-size: 57px;
   }
@@ -95,7 +136,7 @@ nav {
     font-size: 2.5rem;
   }
 }
-
+*/
 .about-content {
   display: -webkit-box;
   display: -ms-flexbox;
