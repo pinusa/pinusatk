@@ -122,6 +122,11 @@ footer {
   margin-top: 15px;
 }
 
+.email a,
+.email a:visited {
+  color: #3d3d3d;
+}
+
 .footnote {
   font-family: lato;
   font-size: 15px;
@@ -540,9 +545,19 @@ h2 {
   padding-right: 20px;
 }
 
+.other-projects .other-projects-content .previous-project a,
+.other-projects .other-projects-content .previous-project a:visited {
+  color: #3d3d3d;
+}
+
 .other-projects .other-projects-content .next-project {
   white-space: nowrap;
   padding-left: 20px;
+}
+
+.other-projects .other-projects-content .next-project a,
+.other-projects .other-projects-content .next-project a:visited {
+  color: #3d3d3d;
 }
 
 .other-projects .other-projects-content .read-more {

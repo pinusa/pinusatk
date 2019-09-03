@@ -104,6 +104,10 @@ footer {
   font-size: 25px;
   font-weight: bold;
   margin-top: 15px;
+  a,
+  a:visited {
+    color: #3d3d3d;
+  }
 }
 
 .footnote {
@@ -535,11 +539,29 @@ h2 {
     .previous-project {
       white-space: nowrap;
       padding-right: 20px;
+      a,
+      a:visited {
+        color: #3d3d3d;
+      }
+      a:hover {
+        background-color: #f5c923;
+        transition: 0.5s;
+        color: black;
+      }
     }
 
     .next-project {
       white-space: nowrap;
       padding-left: 20px;
+      a,
+      a:visited {
+        color: #3d3d3d;
+      }
+      a:hover {
+        background-color: #f5c923;
+        transition: 0.5s;
+        color: black;
+      }
     }
     .read-more {
       font-weight: bold;
