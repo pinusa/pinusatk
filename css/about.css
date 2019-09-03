@@ -99,7 +99,7 @@ nav {
       -ms-flex-direction: column;
           flex-direction: column;
   /*padding: 70px 50px;*/
-  font-family: Garamond;
+  font-family: lato;
   font-size: 1rem;
   line-height: 1.2;
   top: 20%;
@@ -118,6 +118,12 @@ nav {
     padding: 70px 50px;
     text-align: left;
     font-size: 1.1rem;
+  }
+  .footer .credit-personal {
+    font-size: 0.5rem;
+  }
+  .footer .footer-right .credit-professional {
+    font-size: 0.5rem;
   }
 }
 
