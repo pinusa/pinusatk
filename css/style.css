@@ -216,7 +216,7 @@ nav {
 }
 
 .homepage .project-image img {
-  width: 100vw;
+  width: 55.62vw;
 }
 
 .homepage .project-text {
@@ -250,6 +250,12 @@ nav {
   .homepage {
     font-size: 16px;
   }
+  .homepage #all-projects .project .project-image img {
+    width: 100vw;
+  }
+  .homepage #all-projects .project .project-text .project-title {
+    font-size: 1.5rem;
+  }
   .homepage .project-intro .note-1 {
     padding-left: 10vw;
   }
@@ -280,23 +286,24 @@ nav {
     }
     
     */
-  .project-image img {
-    width: 55.62vw;
-    padding-left: 77px;
-  }
   .project {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 90px;
   }
-  .project-text {
+  .project .project-image img {
+    width: 55.62vw;
+    padding-left: 77px;
+  }
+  .project .project-text {
     padding-left: 40px;
+    padding: 0 5vw 5vw;
   }
-  .project-title {
-    font-size: 20px;
+  .project .project-text .project-title {
+    font-size: 1.5rem;
   }
-  .project-description {
+  .project .project-text .project-description {
     max-width: 600px;
     font-size: 17px;
     line-height: 1.5;
@@ -324,7 +331,6 @@ nav {
 }
 
 .footer .email a {
-  text-decoration: none;
   color: #3d3d3d;
 }
 

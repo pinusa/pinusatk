@@ -115,7 +115,7 @@ nav {
 @media (min-width: 320px) {
   .about-content {
     position: static;
-    padding: 70px 50px;
+    padding: 70px 70px;
     text-align: left;
     font-size: 1.1rem;
   }
