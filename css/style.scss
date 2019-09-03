@@ -108,10 +108,21 @@ nav {
 .homepage {
   /* Main Body */
   font-size: 13px;
-
+  .readmore {
+    padding-top: 5vh;
+    a,
+    a:visited {
+      color: #3d3d3d;
+    }
+    a:hover {
+      background-color: #f5c923;
+      transition: 0.5s;
+      color: black;
+    }
+  }
   @media (max-width: 320px) {
     .homepage {
-      font-size: 12px;
+      font-size: 16px;
     }
   }
   .intro-wrapper {
@@ -185,6 +196,10 @@ nav {
       font-family: droidserif;
       /*font-size: 15px;*/
       font-weight: bold;
+      a {
+        text-decoration: none;
+        color: #3d3d3d;
+      }
     }
     .project-description {
       font-family: lato;
@@ -198,17 +213,36 @@ nav {
     font-weight: bold;
   }
   @media (max-width: 500px) {
-    font-size: 12px;
-    .intro-wrapper {
-      font-size: 1.3rem;
+    .project-intro {
+      .note-1 {
+        padding-left: 10vw;
+      }
     }
-
-    .logo img {
-      width: 45px;
+    font-size: 16px;
+    .intro-wrapper {
+      padding: 100px 5vw;
+      .intro-title {
+        font-size: 2rem;
+      }
+      .intro-subtitle {
+        font-size: 1.2rem;
+      }
+    }
+    #all-projects {
+      .project {
+        .project-text {
+          padding: 5vh 10vw 10vw;
+        }
+      }
     }
   }
-  @media (min-width: 600px) {
-    /* SOLVED! - use vw unit
+
+  .logo img {
+    width: 45px;
+  }
+}
+@media (min-width: 600px) {
+  /* SOLVED! - use vw unit
     How to set div. size? - there's white space in ipad pro version
 
     .project-image {
@@ -216,124 +250,123 @@ nav {
     }
     
     */
-    .project-image img {
-      width: 55.62vw;
-      padding-left: 77px;
-    }
-    .project {
-      display: flex;
-      margin-bottom: 90px;
-    }
-    .project-text {
-      padding-left: 40px;
-    }
-    .project-title {
-      font-size: 20px;
-    }
-    .project-description {
-      max-width: 600px;
-      font-size: 17px;
-      line-height: 1.5;
+  .project-image img {
+    width: 55.62vw;
+    padding-left: 77px;
+  }
+  .project {
+    display: flex;
+    margin-bottom: 90px;
+  }
+  .project-text {
+    padding-left: 40px;
+  }
+  .project-title {
+    font-size: 20px;
+  }
+  .project-description {
+    max-width: 600px;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+}
+.footer {
+  text-align: center;
+  font-family: lato;
+  font-size: 15px;
+  background-color: #f7f7f7;
+  padding: 25px;
+
+  .getintouch {
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .email {
+    font-family: droidserif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 27px 0;
+
+    a {
+      text-decoration: none;
+      color: #3d3d3d;
     }
   }
+  .credit-professional {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 600px) {
   .footer {
-    text-align: center;
-    font-family: lato;
-    font-size: 15px;
-    background-color: #f7f7f7;
-    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
 
-    .getintouch {
-      font-weight: bold;
-      letter-spacing: 2px;
-    }
-
-    .email {
-      font-family: droidserif;
-      font-size: 25px;
-      font-weight: bold;
-      padding: 27px 0;
-
-      a {
-        text-decoration: none;
-        color: #3d3d3d;
-      }
-    }
-    .credit-professional {
-      font-size: 10px;
-    }
-  }
-
-  @media (min-width: 600px) {
-    .footer {
+    .footer-left {
       display: flex;
-      justify-content: space-between;
-      padding: 0;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 30px 0;
+      padding-left: 6vw;
 
-      .footer-left {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 30px 0;
-        padding-left: 6vw;
-
-        .getintouch {
-          padding-bottom: 15px;
-        }
-
-        .email {
-          padding: 0;
-          padding-bottom: 40px;
-        }
+      .getintouch {
+        padding-bottom: 15px;
       }
 
-      .footer-right {
-        display: flex;
-        align-items: flex-end;
-        padding: 30px 0;
-        padding-right: 6vw;
+      .email {
+        padding: 0;
+        padding-bottom: 40px;
+      }
+    }
 
-        .credit-professional {
-          font-size: 15px;
-        }
+    .footer-right {
+      display: flex;
+      align-items: flex-end;
+      padding: 30px 0;
+      padding-right: 6vw;
+
+      .credit-professional {
+        font-size: 15px;
       }
     }
   }
+}
 
-  @media (min-width: 600px) and (max-width: 800px) {
-    .intro-title,
-    .intro-subtitle {
-      font-size: 0px;
-      font-size: 2rem;
-    }
-    .note-1 {
-      padding-left: 6vw;
-    }
-    .note-2 {
-      flex-wrap: wrap;
-      margin: 0;
-      padding-left: 6vw;
-    }
+@media (min-width: 600px) and (max-width: 800px) {
+  .intro-title,
+  .intro-subtitle {
+    font-size: 0px;
+    font-size: 2rem;
+  }
+  .note-1 {
+    padding-left: 6vw;
+  }
+  .note-2 {
+    flex-wrap: wrap;
+    margin: 0;
+    padding-left: 6vw;
+  }
 
-    .project {
-      display: flex;
-      flex-wrap: wrap;
-      margin: 0;
-      /*padding-left: 70px;*/
-      padding-left: 6vw;
-    }
+  .project {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    /*padding-left: 70px;*/
+    padding-left: 6vw;
+  }
 
-    .project-image img {
-      width: 600px;
-      padding: 0;
-    }
+  .project-image img {
+    width: 600px;
+    padding: 0;
+  }
 
-    .project-text {
-      padding: 15px 0 25px;
-    }
-    .project-description {
-      max-width: 600px;
-    }
+  .project-text {
+    padding: 15px 0 25px;
+  }
+  .project-description {
+    max-width: 600px;
   }
 }

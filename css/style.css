@@ -134,9 +134,25 @@ nav {
   }*/
 }
 
+.homepage .readmore {
+  padding-top: 5vh;
+}
+
+.homepage .readmore a,
+.homepage .readmore a:visited {
+  color: #3d3d3d;
+}
+
+.homepage .readmore a:hover {
+  background-color: #f5c923;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: black;
+}
+
 @media (max-width: 320px) {
   .homepage .homepage {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
@@ -213,6 +229,11 @@ nav {
   font-weight: bold;
 }
 
+.homepage .project-text .project-title a {
+  text-decoration: none;
+  color: #3d3d3d;
+}
+
 .homepage .project-text .project-description {
   font-family: lato;
   /*font-size: 12px;*/
@@ -227,19 +248,31 @@ nav {
 
 @media (max-width: 500px) {
   .homepage {
-    font-size: 12px;
+    font-size: 16px;
+  }
+  .homepage .project-intro .note-1 {
+    padding-left: 10vw;
   }
   .homepage .intro-wrapper {
-    font-size: 1.3rem;
+    padding: 100px 5vw;
   }
-  .homepage .logo img {
-    width: 45px;
+  .homepage .intro-wrapper .intro-title {
+    font-size: 2rem;
+  }
+  .homepage .intro-wrapper .intro-subtitle {
+    font-size: 1.2rem;
+  }
+  .homepage #all-projects .project .project-text {
+    padding: 5vh 10vw 10vw;
   }
 }
 
+.homepage .logo img {
+  width: 45px;
+}
+
 @media (min-width: 600px) {
-  .homepage {
-    /* SOLVED! - use vw unit
+  /* SOLVED! - use vw unit
     How to set div. size? - there's white space in ipad pro version
 
     .project-image {
@@ -247,31 +280,30 @@ nav {
     }
     
     */
-  }
-  .homepage .project-image img {
+  .project-image img {
     width: 55.62vw;
     padding-left: 77px;
   }
-  .homepage .project {
+  .project {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 90px;
   }
-  .homepage .project-text {
+  .project-text {
     padding-left: 40px;
   }
-  .homepage .project-title {
+  .project-title {
     font-size: 20px;
   }
-  .homepage .project-description {
+  .project-description {
     max-width: 600px;
     font-size: 17px;
     line-height: 1.5;
   }
 }
 
-.homepage .footer {
+.footer {
   text-align: center;
   font-family: lato;
   font-size: 15px;
@@ -279,29 +311,29 @@ nav {
   padding: 25px;
 }
 
-.homepage .footer .getintouch {
+.footer .getintouch {
   font-weight: bold;
   letter-spacing: 2px;
 }
 
-.homepage .footer .email {
+.footer .email {
   font-family: droidserif;
   font-size: 25px;
   font-weight: bold;
   padding: 27px 0;
 }
 
-.homepage .footer .email a {
+.footer .email a {
   text-decoration: none;
   color: #3d3d3d;
 }
 
-.homepage .footer .credit-professional {
+.footer .credit-professional {
   font-size: 10px;
 }
 
 @media (min-width: 600px) {
-  .homepage .footer {
+  .footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -310,7 +342,7 @@ nav {
             justify-content: space-between;
     padding: 0;
   }
-  .homepage .footer .footer-left {
+  .footer .footer-left {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -326,14 +358,14 @@ nav {
     padding: 30px 0;
     padding-left: 6vw;
   }
-  .homepage .footer .footer-left .getintouch {
+  .footer .footer-left .getintouch {
     padding-bottom: 15px;
   }
-  .homepage .footer .footer-left .email {
+  .footer .footer-left .email {
     padding: 0;
     padding-bottom: 40px;
   }
-  .homepage .footer .footer-right {
+  .footer .footer-right {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -343,27 +375,27 @@ nav {
     padding: 30px 0;
     padding-right: 6vw;
   }
-  .homepage .footer .footer-right .credit-professional {
+  .footer .footer-right .credit-professional {
     font-size: 15px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 800px) {
-  .homepage .intro-title,
-  .homepage .intro-subtitle {
+  .intro-title,
+  .intro-subtitle {
     font-size: 0px;
     font-size: 2rem;
   }
-  .homepage .note-1 {
+  .note-1 {
     padding-left: 6vw;
   }
-  .homepage .note-2 {
+  .note-2 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: 0;
     padding-left: 6vw;
   }
-  .homepage .project {
+  .project {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -373,14 +405,14 @@ nav {
     /*padding-left: 70px;*/
     padding-left: 6vw;
   }
-  .homepage .project-image img {
+  .project-image img {
     width: 600px;
     padding: 0;
   }
-  .homepage .project-text {
+  .project-text {
     padding: 15px 0 25px;
   }
-  .homepage .project-description {
+  .project-description {
     max-width: 600px;
   }
 }
